@@ -17,7 +17,9 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="inner-footer">
 			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'https://github.com/JGallardo/federica', 'federica' ) ); ?>"><?php printf( esc_html__( 'Federica theme by %s', 'Juan Gallardo' ), 'Juan Gallardo' ); ?></a>
+				<a href="https://github.com/JGallardo/federica" target="_blank">Federica theme</a>
+				by
+				<a href="https://www.linkedin.com/in/jgallardo2600/" rel="designer" target="_blank">Juan Gallardo</a>
 				<span class="sep"> | </span>
 				<?php printf( esc_html__( 'Child theme of: %s', 'rikke' ), 'Rikke' ); ?>
 			</div>

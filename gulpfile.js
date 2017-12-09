@@ -7,12 +7,9 @@ gulp.task('copyAllFiles', function() {
 	//PHP files
 	gulp.src('src/*.php')
 	.pipe(gulp.dest('dist'));
-	//inc files
-	gulp.src('src/inc/*.php')
-	.pipe(gulp.dest('dist/inc'));
-	//functions
-	gulp.src('src/inc/functions/*.php')
-	.pipe(gulp.dest('dist/inc/functions'));
+	//template-parts files
+	gulp.src('src/template-parts/*.php')
+	.pipe(gulp.dest('dist/template-parts'));
 	//childtheme screenshot
 	gulp.src('src/screenshot.png')
 	.pipe(gulp.dest('dist'));
